@@ -8,7 +8,7 @@ This repository contains an educational 8-bit CPU design (RTL, microarchitecture
 
 The design follows a classic top-down flow:
 - Instruction Set Architecture (ISA): Define the instruction formats, supported operations, register file layout, addressing modes, and the programmer-visible behavior.
-- Microarchitecture: Map the ISA to datapath components (ALU, registers, multiplexers) and control (finite-state machine or microcoded control).
+- Microarchitecture: Describes the implementation of the given ISA — map the ISA to datapath components (ALU, registers, multiplexers) and control (finite-state machine or microcoded control).
 - Registers & Counters: Implement the register file, program counter, instruction register, and any other state elements required by the microarchitecture.
 - Combinational & Sequential Circuits: Implement the ALU, shifters, decoders, and the sequential logic that ties the components together.
 
