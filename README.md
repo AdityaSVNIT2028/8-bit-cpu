@@ -4,7 +4,8 @@ This repository contains an educational 8-bit CPU design (RTL, microarchitecture
 
 ## Design flow
 
-![Design flow](images/design_flow.png)
+<img width="521" height="746" alt="image" src="https://github.com/user-attachments/assets/12a60076-756a-47ef-b6cf-8e505b760796" />
+
 
 The design follows a classic top-down flow:
 - Instruction Set Architecture (ISA): Define the instruction formats, supported operations, register file layout, addressing modes, and the programmer-visible behavior.
@@ -14,7 +15,8 @@ The design follows a classic top-down flow:
 
 ## Instruction cycle
 
-![Instruction cycle](images/instruction_cycle.png)
+<img width="792" height="534" alt="image" src="https://github.com/user-attachments/assets/86fbb6cb-d92a-4aa0-8575-01fc97e5bdc5" />
+
 
 The CPU executes instructions using the classic Fetch–Decode–Execute cycle:
 
